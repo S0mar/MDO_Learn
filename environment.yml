@@ -1,0 +1,12 @@
+name: mdo
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - ruff
+  - pip
