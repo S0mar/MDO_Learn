@@ -1,3 +1,8 @@
+# each sesstion:
+
+WSL
+cd ~/projects/MDO_Learn && conda activate mdo && code .
+
 # Resources for *Engineering Design Optimization*
 
 This repository contains code, examples, templates, and other material designed to supplment the textbook: 
