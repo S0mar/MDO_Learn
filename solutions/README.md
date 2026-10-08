@@ -4,8 +4,8 @@ Core end-of-chapter problems from *Engineering Design Optimization* (Martins & N
 
 | Ch | Core problems | Status |
 |----|---------------|--------|
-| 1 | 1.2, 1.3, 1.4, 1.5, 1.7 | todo |
-| 3 | 3.3, 3.5, 3.7, 3.8 | todo |
+| 1 | 1.2, 1.3, 1.4, 1.5, 1.7 | done |
+| 3 | 3.3, 3.5, 3.7, 3.8 | in progress |
 | 4 | 4.3, 4.5, 4.7, 4.8, 4.9, 4.11 | todo |
 | 5 | 5.4, 5.7, 5.9, 5.10, 5.13, 5.17 | todo |
 | 6 | 6.2, 6.4, 6.6, 6.7, 6.8 | todo |
