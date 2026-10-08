@@ -25,10 +25,11 @@ angle of attack [0°, 5°]
 
 lift constraint Cl stays constant at 1.4 (just a guess exact number not important)
 weight under 1 kg
+0 W <= power <= 100 W # added 0W lower bound for safety
 
 ## Parameters (fixed)
 
-power = 100 W
+
 number of rotors = 4
 weight without shell = 700 g
 areal weight of the shell = 300g /m2
@@ -48,6 +49,7 @@ by varying:
 subject to:
 Cl = 1.4
 m <= 730kg
+0W <= power <= 100W
 
 ## Problem classification
 
