@@ -12,7 +12,7 @@ true. modeling errors come from idealizations of the mathematical models. they c
 
 ## c. Explicit and implicit equations can always be written in residual form.
 
-true. explicit examples are trivial. an example of an implicit equation rewritten as a residual is the linear system provided in example 3.1 (page 49, 50) which is rewritten in example 3.2 (page 52). examples: explicit f(x) = u becomes r(x) = f(x) - u = 0 in residual form. impicit: Au = b becomes r(u) = Au - b = 0.
+true. explicit examples are trivial. an example of an implicit equation rewritten as a residual is the linear system provided in example 3.1 (page 49, 50) which is rewritten in example 3.2 (page 52). examples: explicit f(x) = u becomes r(u) = f(x) - u = 0 in residual form. impicit: Au = b becomes r(u) = Au - b = 0.
 
 ## d. Subtractive cancellation is a type of roundoff error.
 
@@ -24,7 +24,7 @@ false. one should always assume that the code has bugs. bugs can be found by tes
 
 ## f. Quadratic convergence is only better than linear convergence if the asymptotic convergence error constant is less than or equal to one.
 
-false. the constants for p=1 and p=2 are not comparable. quadratic is slower at first for y>. but for any finite y quadratic beats linear. 
+false. the constants for p=1 and p=2 are not comparable. for γ > 1 quadratic starts slower. but for any finite γ quadratic beats linear. quadratic converges only if γ·e₀ < 1 (the book, p. 64).
 
 ## g. Logarithmic scales are desirable when plotting convergence because they show errors of all magnitudes.
 
@@ -44,7 +44,7 @@ false. the opposite is the case. iterative methods continously converge towards 
 
 ## k. Newton's method requires the derivatives of all the state variables with respect to the residuals.
 
-true. the explicit equations/functions of the derivatives are not required. the derivative can also be approximated using the secant method (see eqation 3.25 on page 67). however a derivative function or an appoximate derivative is always required.
+true. the explicit equations/functions of the derivatives are not required. the derivative can also be approximated using the secant method (see eqation 3.25 on page 67). however a derivative function (such as the jacobian) or an appoximate derivative is always required.
 
 ## l. In the full-space optimization approach, the state variables become design variables, and the governing equations become constraints.
 
