@@ -4,9 +4,15 @@ Choose an engineering system that you are familiar with and describe each of the
 
 ## System
 
+optimizing the aerodynamic performance of a quadcopter
+
 ## Physical system
 
+quadcopter flying
+
 ## Mathematical model(s) and assumptions
+
+
 
 ## Numerical model(s) and assumptions
 
