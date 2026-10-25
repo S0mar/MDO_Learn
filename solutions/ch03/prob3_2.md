@@ -12,10 +12,16 @@ quadcopter flying
 
 ## Mathematical model(s) and assumptions
 
-
+CFD model, stationary flow state. material paramerters, etc.
 
 ## Numerical model(s) and assumptions
 
+floating point precision, convergence tolerance, et.
+
 ## Solver for each model
 
+idk.
+
 ## State variables for each model
+
+idk.
