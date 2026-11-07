@@ -8,7 +8,7 @@ false. infinite differentiability is not required. a analytic derrivative might 
 
 ## b. Gradient-based methods perform a local search.
 
-true. a global search guarantees that the global optimum is found. this is not the case for gradient based methods as they only use local information.
+true. a global search explores the whole design space (but does not guarantee findiung the global optimum). this is not the case for gradient based methods as they only use local information.
 
 ## c. Gradient-based methods are only effective for problems with one minimum.
 
