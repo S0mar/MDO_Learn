@@ -7,7 +7,7 @@ name = "mdolib"
 version = "0.1.0"
 description = "My optimization library, built while working through the book."
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["numpy"]
 
 [tool.setuptools]
 packages = ["mdolib"]
